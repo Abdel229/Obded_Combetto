@@ -1,0 +1,8 @@
+a-)git pull permet de récupérer les modifications du dépot distant vers le dépôt local et fusionne directement ce dépôt.
+    Tandis que git fetch, lui, récupère aussi les modifications du dépôt distant vers le dépôt local mais ne fusionne pas les modification.Cela nous donne la possibilité d'inspecter avant de fusionner
+
+b-)Pour annuler les modifications locales non validées dans Git, on utilise la commande git checkout suivi du nom de fichier qu'on veut annuler la modification
+
+c-)Pour supprimer une branche distante, on utilise la commande git push "suivi du nom de dépôt" --delete "nom de la branche"
+
+d-)Pour voir les modifications sur un fichier spécifique, on fait git log suivi du nom du fichier
